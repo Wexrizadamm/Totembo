@@ -1,0 +1,20 @@
+/* 
+1200px - container = max-width: 970px;
+992px - container = max-width: 750px;
+768px - container = max-width: unset;
+576px - container = max-width: unset;
+475px - container = max-width: unset;
+375px - container = max-width: unset;
+320px - container = max-width: unset;
+*/
+
+@media (max-width: 1400px) {
+    .cards {
+        grid-template-columns: repeat(2, 416px);
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
